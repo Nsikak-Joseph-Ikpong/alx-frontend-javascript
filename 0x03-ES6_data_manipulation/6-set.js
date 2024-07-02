@@ -1,5 +1,4 @@
-
-const setFromArray = (arr) => new Set(arr);
-
-export default setFromArray;
-
+export default function setFromArray(arr) {
+  const arrSet = new Set(arr);
+  return arrSet;
+}
